@@ -1,14 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import '../api_services/weather_api_services.dart';
-import '../screen_widgtes/sunrise_sunset_widget/sunrise_sunset_widget.dart';
-import '../screen_widgtes/weather_chart_painter.dart';
-import '../screen_widgtes/wind_widgets/wind_widgets.dart';
-import '../utils/weather_utils/weather_utils.dart';
-import '../weather_response_model/weather_response_model.dart';
-import '../widgets/app_button/app_button.dart';
-import '../widgets/app_large_text/app_large_text.dart';
-import '../widgets/app_text/app_text.dart';
+import '../../api_services/weather_api_services.dart';
+import '../../utils/weather_utils/weather_utils.dart';
+import '../../weather_response_model/weather_response_model.dart';
+import '../../widgets/app_button/app_button.dart';
+import '../../widgets/app_large_text/app_large_text.dart';
+import '../../widgets/app_text/app_text.dart';
+import 'home_screen_widgets/sunrise_sunset_widget/sunrise_sunset_widget.dart';
+import 'home_screen_widgets/weather_chart_painter.dart';
+import 'home_screen_widgets/wind_widgets/wind_widgets.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

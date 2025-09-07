@@ -8,7 +8,7 @@ String getBackgroundForWeather(String iconCode) {
     case '02d':
     case '03d':
     case '04d':
-      return 'assets/images/cloudy_bg.jpg';
+      return 'assets/images/wind-spring-white-stratosphere-pure.jpg';
     case '02n':
     case '03n':
     case '04n':

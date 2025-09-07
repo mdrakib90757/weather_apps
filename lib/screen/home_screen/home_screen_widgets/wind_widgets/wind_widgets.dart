@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../../widgets/app_text/app_text.dart';
+import 'package:weather_apps/widgets/app_text/app_text.dart';
 import '../compass_painter/compass_painter.dart';
 
 class WindWidget extends StatelessWidget {

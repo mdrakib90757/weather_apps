@@ -104,7 +104,6 @@ class WeatherService {
         );
       }
     });
-
     return result.take(5).toList();
   }
 }

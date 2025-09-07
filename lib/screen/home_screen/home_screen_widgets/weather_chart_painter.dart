@@ -2,9 +2,8 @@
 
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
-
-import '../weather_response_model/weather_response_model.dart';
-import '../widgets/app_text/app_text.dart';
+import 'package:weather_apps/weather_response_model/weather_response_model.dart';
+import 'package:weather_apps/widgets/app_text/app_text.dart';
 
 class HourlyForecastWidget extends StatelessWidget {
   final List<HourlyForecast> hourlyData;
