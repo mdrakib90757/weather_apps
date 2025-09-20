@@ -31,7 +31,7 @@ String getBackgroundForWeather(String iconCode) {
 
     case '50d':
     case '50n':
-      return 'assets/images/mist_bg.jpg';
+      return 'assets/images/111.png';
 
     default:
       return 'assets/images/sunny_bg.jpg';
