@@ -8,6 +8,7 @@ class WeatherService {
   static const String _apiKey = "034b448665ab0974d29380682cf6fe12";
   static const String _baseUrl = "https://api.openweathermap.org/data/2.5";
 
+  // Method to fetch weather data
   Future<WeatherResponse> getWeatherData(double lat, double lon) async {
     try {
       final currentWeatherUrl = Uri.parse(
@@ -58,6 +59,7 @@ class WeatherService {
     }
   }
 
+  // Helper method to parse daily forecast data
   List<DailyForecast> _parseDailyForecast(List<dynamic> forecastList) {
     final Map<int, List<dynamic>> dailyData = {};
     for (var item in forecastList) {

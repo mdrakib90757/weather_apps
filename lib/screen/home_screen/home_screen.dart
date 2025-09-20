@@ -29,6 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
     _fetchWeatherData();
   }
 
+  // Fetch weather data from the API
   Future<void> _fetchWeatherData() async {
     try {
       const double lat = 23.6850;
@@ -117,6 +118,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
+
                             AppLargeText(
                               color: Colors.white,
                               size: 130,
@@ -144,7 +146,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ],
                     ),
                   ),
-                  SizedBox(height: 10),
+                 const SizedBox(height: 10),
                   SizedBox(height: MediaQuery.of(context).size.height / 6.5),
 
                   //day forecast container
@@ -347,6 +349,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                   ),
                   SizedBox(height: 10),
+                  //additional info container
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
@@ -421,6 +424,7 @@ double _calculateSunProgress(String sunriseStr, String sunsetStr) {
   }
 }
 
+// Helper function to build a row for daily forecast.
 Widget _buildDailyForecastRow({
   required String dayName,
   required String iconCode,
@@ -452,4 +456,3 @@ Widget _buildDailyForecastRow({
   );
 }
 
-//034b448665ab0974d29380682cf6fe12
